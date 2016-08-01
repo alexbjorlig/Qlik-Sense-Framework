@@ -31,7 +31,7 @@ implementation.
     :hidden:
 
     variables
-    color scheme
+    color_scheme
 
 Contents
 ========
