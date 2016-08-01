@@ -6,12 +6,13 @@
 Welcome to Inspari Qlik Sense Framework's documentation!
 ========================================================
 
-IQSF is a framework for documenting best practice Qlik Sense Enterprise
-implementation, and helps with:
+Inspari Qlik Sense Framework (IQSF) is a framework for documenting best practice Qlik Sense Enterprise
+implementation. It aims to help developers obtain:
 
 * **Consistency**: Secure consistency throughout the Qlik Sense deployment
 * **Automation**: Links and recommendations to automation utilizing the Qlik Sense API's
 * **Structure**: Ideas for typical enterprise configurations
+* **Extensions**: Links and recommendations to extending Qlik Sense
 
 `Qlik Sense <http://www.wlik.com/us/products/qlik-sense>`_ is a
 `Business intelligence
@@ -29,17 +30,11 @@ implementation.
     :maxdepth: 2
     :hidden:
 
-
-
-Contents:
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-
     variables
+    color scheme
 
 Contents
 ========
 
 * :ref:`variables`
+* :ref:`color_scheme`
