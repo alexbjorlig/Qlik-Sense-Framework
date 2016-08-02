@@ -8,7 +8,8 @@ Color Scheme
 Introduction
 ------------
 
-Are looking for a way to change the look and fell of your Qlik Sense applications?
+**Are looking for a way to change the look and fell of your Qlik Sense applications?**
+
 Qlik Sense does currently not officially support color shceme modification, but there is
 an experimental feature that lets you test the capability.
 To understand how this work, think of Qlik Sense as a web server and the client accessing documents
@@ -42,6 +43,7 @@ With the sheet open in Google Chrome, activate the developer tools by pressing: 
 Try to change the background-color of the sheet to red:
 
 .. figure:: images/color_scheme/iqsf_color_scheme_2.PNG
+  :scale: 80%
 
 This should give you a good idea of how Qlik Sense works, and how/why we can change the
 color scheme. Now lets continue to look at how this can be implemented.
@@ -106,7 +108,8 @@ Qlik Sense will now read the default theme, and you can change it accordingly.
 Missing Features and todos
 --------------------------
 
-* Organizing custom color themes i.e. assigning custmo themes to specific applications
+* Organizing custom color themes i.e. assigning custmo themes to specific applications.
+  In a comment to this `Qlik Community post <https://community.qlik.com/docs/DOC-13517>`_ there is mentioned that *something is on the roadmap for 3.0+*.
 * Designing color themes. A reasonable work around is to use the `atom <https://atom.io/>`_ text editor with two packages installed: `color-picker <https://atom.io/packages/color-picker>`_ and `pigments <https://github.com/abe33/atom-pigments>`_.
   Consider reading the atom flight `manual <http://flight-manual.atom.io/>`_.
   It gives you the possibility of viewing and setting colors in file:
