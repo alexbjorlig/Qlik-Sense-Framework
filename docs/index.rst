@@ -19,9 +19,7 @@ implementation. It aims to help developers obtain:
 tool <https://en.wikipedia.org/wiki/Business_intelligence_tools>`_ developed by
 `Qlik <https://Qlik.com/us>`_ that helps make stunning data discoveries.
 
-.. danger:: This is not `official <https://help.qlik.com/>`_ Qlik Sense
-Documentations, but a framework for best practice enterprise
-implementation.
+.. danger:: This is not `official <https://help.qlik.com/>`_ Qlik Sense documentation, but a framework for best practice enterprise implementation.
 
 .. note:: IQSF is currently in an early stage.
    The documentation might change in backward incompatible ways.
