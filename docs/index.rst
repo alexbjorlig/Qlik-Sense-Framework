@@ -13,6 +13,7 @@ implementation. It aims to help developers obtain:
 * **Automation**: Links and recommendations to automation utilizing the Qlik Sense API's
 * **Structure**: Ideas for typical enterprise configurations
 * **Extensions**: Links and recommendations to extending Qlik Sense
+* **Maintainability**: The world is dynamic and a Qlik Sense app most adopt 
 
 `Qlik Sense <http://www.wlik.com/us/products/qlik-sense>`_ is a
 `Business intelligence
