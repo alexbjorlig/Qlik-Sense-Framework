@@ -17,14 +17,15 @@ Introduction to Extensions
 --------------------------
 
 Find your extension
-******************
+*******************
+
 Qlik provides a webpage for exploring extensions called `Qlik Branch <http://branch.qlik.com/#!/project>`_.
 If you are familiar with `Github <http://github.com>`_, most of the projects fortunately also hosted there.
 Generally it is recommended to only use extensions hosted on Github, since this makes it possible to inspect the
 code if needed, and engage in the open source development of key features. When exploring an extension on github
 it is also possible to get an indication of how popular an extension is by looking at the following indicators:
 
-.. figure:: images/extensions/Github_popularity.PNG.PNG
+.. figure:: images/extensions/Github_popularity.PNG
   :scale: 60%
 
 The more commits, branches, releases and contributors, the more living the code is.
