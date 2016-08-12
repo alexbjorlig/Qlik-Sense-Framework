@@ -30,10 +30,12 @@ tool <https://en.wikipedia.org/wiki/Business_intelligence_tools>`_ developed by
     :hidden:
 
     variables
-    themes
+    color_scheme
+    extensions
 
 Contents
 ========
 
 * :ref:`variables`
-* :ref:`themes`
+* :ref:`color_scheme`
+* :ref:`extensions`

@@ -147,7 +147,7 @@ the font size in the bar chart. When you inspect the properties you should find 
 .. code-block:: javascript
 
   "fontSize": {
-              "default": "21px",
+              "default": "11px",
               "full": "11px",
               "medium": "11px",
               "small": "11px",
