@@ -82,7 +82,7 @@ Change Color Scheme: permanent
 To change the color scheme permanent, you have to change the default theme.
 
 After you have done this, you have to change a javascript file called require.js
-This is a JavaScript file, with the responsibility of loading modules. You can read more about it `here <http://requirejs.org/>`_.
+This is a JavaScript file, with the responsibility of loading modules. You can read more about it `here <http://requirejs.org/>`__.
 The default path is:
 
 .. code-block:: html
