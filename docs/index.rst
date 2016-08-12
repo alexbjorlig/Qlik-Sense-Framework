@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Inspari Qlik Sense Framework's documentation!
-========================================================
+Inspari Qlik Sense Framework
+============================
 
 Inspari Qlik Sense Framework (IQSF) is a framework for documenting best practice Qlik Sense Enterprise
 implementation. It aims to help developers obtain:
