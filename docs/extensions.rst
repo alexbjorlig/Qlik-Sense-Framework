@@ -39,6 +39,7 @@ QlikSenseTask
 *************
 
 `Link to QlikSenseTask on branch <http://branch.qlik.com/#!/project/56f2e998f1c173fc24afe6ec>`_
+
 `Link to QlikSenseTask on Github <https://github.com/eapowertools/QlikSenseTask>`_
 
 This service makes it possible to start Qlik Sense tasks from the command line. This makes an excellent fit into an environment with SSIS,
@@ -71,6 +72,7 @@ Governed Metrics Service (GMS)
 ******************************
 
 `Link to GMS on branch <http://branch.qlik.com/?&_ga=1.205648019.1497078496.1393695932#!/project/57655702febb2ca54e7149d2>`_
+
 `Link to GMS on Github <https://github.com/eapowertools/GovernedMetricsService>`_
 
 One of the most important extensions to Qlik Sense server is the Governed Metrics Service.
