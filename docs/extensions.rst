@@ -34,5 +34,43 @@ Recommended Extensions
 
 In the following we will recommended must have extensions for the entreprise Inspari Qlik Sense framework.
 
-Governed Metrics Service
-************************
+QlikSenseTask
+*************
+
+`Link to QlikSenseTask on branch <http://branch.qlik.com/#!/project/56f2e998f1c173fc24afe6ec>`_
+`Link to QlikSenseTask on Github <https://github.com/eapowertools/QlikSenseTask>`_
+
+This service makes it possible to start Qlik Sense tasks from the command line. This makes an excellent fit into an environment with SSIS,
+or any other ETL tool since data can be reloaded when the task is finished is illustrated by the following figure:
+
+.. figure:: images/extensions/QlikSenseTask_01.PNG
+  :scale: 70%
+
+**Installation**
+Download as zip or clone from `Github <https://github.com/eapowertools/QlikSenseTask>`_, and extract the QlikSenseTask-x.x.zip file that fits for
+your version of Qlik Sense.
+
+.. note:: QlikSenseTask-2.X.zip have been tested successfully with Qlik Sense 3
+
+After unzipping you have the 3 files you need; config, Newtonsoft.Json.dll and QlikSenseTask.exe.
+Now open the config file and change the address to the Qlik Sense installation, and adjust the waiting time (default is 600 seconds).
+Now you should be able to start a task. Create a task in QMC and change directory to the dir of QlikSenseTask.exe and run the task.
+
+Example: qliksensetask -task:"Hello World"
+
+Please refer to the documentation of QlikSenseTask for more information.
+
+**Wishlist**
+
+* Better documentation at the Github repository
+* Ideas for default location to this script on the Sql Server.
+
+
+Governed Metrics Service (GMS)
+******************************
+
+`Link to GMS on branch <http://branch.qlik.com/?&_ga=1.205648019.1497078496.1393695932#!/project/57655702febb2ca54e7149d2>`_
+`Link to GMS on Github <https://github.com/eapowertools/GovernedMetricsService>`_
+
+One of the most important extensions to Qlik Sense server is the Governed Metrics Service.
+This service lets you manage the master data items.
