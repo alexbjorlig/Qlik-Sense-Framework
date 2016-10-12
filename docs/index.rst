@@ -29,6 +29,7 @@ tool <https://en.wikipedia.org/wiki/Business_intelligence_tools>`_ developed by
     :maxdepth: 2
     :hidden:
 
+    wip
     variables
     themes
     extensions
@@ -36,6 +37,7 @@ tool <https://en.wikipedia.org/wiki/Business_intelligence_tools>`_ developed by
 Contents
 ========
 
+* :ref:`wip`
 * :ref:`variables`
 * :ref:`themes`
 * :ref:`extensions`
