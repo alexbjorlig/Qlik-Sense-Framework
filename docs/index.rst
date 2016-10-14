@@ -33,6 +33,7 @@ tool <https://en.wikipedia.org/wiki/Business_intelligence_tools>`_ developed by
     variables
     themes
     extensions
+    mdi
 
 Contents
 ========
@@ -41,3 +42,4 @@ Contents
 * :ref:`variables`
 * :ref:`themes`
 * :ref:`extensions`
+* :ref:`mdi`
