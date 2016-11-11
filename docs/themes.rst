@@ -48,6 +48,20 @@ Try to change the background-color of the sheet to red:
 This should give you a good idea of how Qlik Sense works, and how/why we can change the
 color scheme. Now lets continue to look at how this can be implemented.
 
+Create a Color Scheme
+*********************
+
+To create a custom color scheme you can use the color scheme generator:
+
+.. code-block:: html
+
+  http://qlik-sense-colors.herokuapp.com
+
+
+The output of the generator needs to be copied to the theme.json file.
+
+
+
 Change Color Scheme: temporary
 ******************************
 
