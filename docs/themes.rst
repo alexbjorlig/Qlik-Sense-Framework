@@ -141,6 +141,55 @@ Missing Features and todos
 * Understanding the role of the css file located with the theme. It is for example responsible for changes to sheet background color.
 * The creation of theme github repository to share custom color themes
 
+Icons
+-----
+As a result of the web structure of Qlik Sense, it is possible to change the icons as well.
+The following example will demonstrate how to change the icons in the hub.
+This guide is a summery of the this `blog post <http://livingqlikview.com/how-to-qlik-sense-branding-2-white-label-the-hub/>`_.
+
+Create the Icons
+****************
+The first step is to create the desired icons, using your preferred tool.
+The following icons are needed, with the exact naming and size:
+
++----------------------+---------------+
+| Name                 | Size          |
++======================+===============+
+| favicon.ico          | 64x64 pixels  |
++----------------------+---------------+
+| logo-60x60.png       | 60x60 pixels  |
++----------------------+---------------+
+| logo-76x76.png       | 76x76 pixels  |
++----------------------+---------------+
+| logo-120x120.png     | 120x120 pixels|
++----------------------+---------------+
+| logo-152x152.png     | 152x152 pixels|
++----------------------+---------------+
+| qlik-sense-server.png| 548x79 pixels |
++----------------------+---------------+
+| qlik-sense.png       | 346x66 pixels |
++----------------------+---------------+
+
+Copy the icons to the server
+****************************
+
+On the Qlik Sense server, replace the favicon at the following path:
+
+.. code-block:: html
+
+  C:\Program Files\Qlik\Sense\Client\
+
+Next, replace the icons at the following path:
+
+.. code-block:: html
+
+  C:\Program Files\Qlik\Sense\Client\img\core\logo
+
+.. note:: The change will first occur when restarting Qlik Sense Proxy Service (QPS), and the Qlik Sense Engine Service. You can read more about
+  Qlik Sense services `here <https://help.qlik.com/en-US/sense/1.0/Subsystems/Server_deployment_and_configuration/Content/Qlik%20Sense/QSSRM_Architecture_Concepts_Services.htm>`_.
+  You stop/start the services using the windows services program.
+
+
 Fonts
 -----
 The Qlik Sense logic of managing colors is identical to how fonds are managed.
